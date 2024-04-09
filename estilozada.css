@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+h1{
+   justify-content: center;
+   text-align: center;
+   font-size: 40px;
+}
+h2{
+    font-size: 25px;
+    justify-content: first baseline;
+    color: aliceblue;
+    margin: 20px;
+}
+article{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+@keyframes colorChange {
+    0% { color: rgb(255, 0, 0); }
+    50% { color: rgb(0, 255, 0); } 
+    100% { color: rgb(0, 0, 255); } 
+}
+
+.animated {
+    animation: colorChange 3s infinite; 
+}
+.alinhaimg{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
